@@ -1,0 +1,20 @@
+.vscode-button
+{
+    /* background: url('./images/Visual_Studio_Code_1.35_icon.svg.png') no-repeat left center; */
+    background-size: cover;
+    background-color: rgb(9, 165, 255);
+    color: white;
+    border: none;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+    /* padding-left: 50px; */
+    border-radius: 4px;
+
+}
+
+.vscode-button:hover
+{
+    background-color: rgb(78, 14, 196);
+    color: white;
+}
