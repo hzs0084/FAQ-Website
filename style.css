@@ -1,3 +1,7 @@
+p {
+    font: Arial;
+}
+
 .vscode-button
 {
     /* background: url('./images/Visual_Studio_Code_1.35_icon.svg.png') no-repeat left center; */
@@ -16,6 +20,7 @@
 .vscode-button:hover
 {
     opacity: 0.5;
+    text-decoration: underline;
     /* background-color: white;
     color: rgb(9, 165, 255); */
 }
@@ -33,4 +38,22 @@
     min-height: 50px;
     padding-top: 15px;
     line-height: 20px
+}
+
+
+.class-details
+{
+    font-family: Arial;
+    color: rgb(96,96,96);
+    margin-top: 0;
+
+}
+
+.class-title
+{
+    font-family: Arial;
+    /* color: rgb(96,96,96); */
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
 }
