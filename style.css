@@ -2,6 +2,13 @@ p {
     font: Arial;
 }
 
+.questions {
+    font: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(96,96,96);
+}
+
 .vscode-button
 {
     /* background: url('./images/Visual_Studio_Code_1.35_icon.svg.png') no-repeat left center; */
