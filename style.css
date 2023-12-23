@@ -77,19 +77,32 @@ p {
 
 .faq-item {
     /* Styles for each individual FAQ item */
+    
 }
 
 .faq-question {
     /* Styles for the question button */
+    
 }
 
 .faq-answer {
     /* Styles for the answer content */
     display: none; /* Initially hide the answer */
+    
 }
 
 .faq-answer.open {
     display: block; /* Show the answers when the open class is applied */
+
+    
 }
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13,110,253,.25)
+}
+
 
 

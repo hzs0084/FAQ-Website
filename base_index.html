@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro To Programming</title>
+</head>
+<body>
+
+    <style>
+    p {
+        font: Arial;
+    }
+
+    .questions {
+        font: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(96,96,96);
+    }
+
+    .vscode-button
+    {
+        /* background: url('./images/Visual_Studio_Code_1.35_icon.svg.png') no-repeat left center; */
+        background-size: cover;
+        background-color: rgb(1, 50, 78);
+        color: white;
+        border: none;
+        height: 40px;
+        width: auto;
+        cursor: pointer;
+        /* padding-left: 50px; */
+        border-radius: 4px;
+
+    }
+
+    .vscode-button:hover
+    {
+        opacity: 0.5;
+        text-decoration: underline;
+        /* background-color: white;
+        color: rgb(9, 165, 255); */
+    }
+
+    .navbar-brand {
+        position: relative;
+        background-image: url("./images/Visual_Studio_Code_1.35_icon.svg.png");
+        background-size: 24px 24px;
+        background-repeat: no-repeat;
+        background-position: left 90%;
+        padding-left: 30px;
+        font-size: 20px;
+        letter-spacing: -0.04rem;
+        color: #fff;
+        min-height: 50px;
+        padding-top: 15px;
+        line-height: 20px
+    }
+
+
+    .class-details
+    {
+        font-family: Arial;
+        color: rgb(96,96,96);
+        margin-top: 0;
+
+    }
+
+    .class-title
+    {
+        font-family: Arial;
+        /* color: rgb(96,96,96); */
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    </style>
+
+<div>
+    <p>
+        <h1 class="class-title">
+            ISMN-3080
+        </h1>
+    </p>
+    <p class="class-details">
+        Introduction to Programming taught by Eric Satterfield &#183; Spring 2023
+    </p>
+</div>
+
+<h1>Frequently Asked Questions</h1>
+
+    <div>
+        <p class="questions">
+            Q6. What is the late submission policy for this class?
+            <p>
+                Each student will get two late days for the semester. You can use these late days for any assignment but you have to reach out to the TA to let them know you are going to use a late day
+            so that the TA doesn't take off any late points. Otherwise as stated in syllabus there will be a <strong>20%</strong> deduction as late penalty.
+            </p>
+        </p>
+    </div>
+
+    <div>
+        <p class="questions">
+            Q7. How do I read the error messages in Visual Studio Code?
+        </p>
+
+        <div>
+            <div>
+                <img src="./error codes/semi colon error.png" alt="semi-colon error in the terminal">
+            </div>
+        </div>
+
+        <p>
+            The error messages in Visual Studio Code are self-explanatory but if you don't know where to look at it can be pretty confusing. In the above example, the error message is telling us that there's a missing semi-colon in line 53. The error message also tells us the file name and the line number where the error is located. 
+            <br> Since VS Code is trying to be precise, it's pointing the exact location where the error occurred. "53" is the line number where the error is located.
+            "22" is the column number within that line where the error is expected.
+            <br> The error message also tells us the type of error. In this case, it's a syntax error. The error message also tells us the error code. In this case, it's CS1002.The error message also tells us the error type. In this case, it's a syntax error. The error message also tells us the error description. In this case, it's telling us that it's expecting a semi colon on the line.
+
+        </p>
+
+        <p>
+            <div class="question7-error-message-in-code">
+                <img src="./error codes/semi colon error in code.png" alt="semi colon error in code">
+            </div>
+            There's also a red squiggly line under the line where the error is located. This is another way of telling us that there's an error in the code. If you hover over the red squiggly line, it will tell you the same thing as the error message.
+        </p>
+
+    </div> 
+</body>
+</html>
