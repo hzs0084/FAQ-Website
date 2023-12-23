@@ -70,3 +70,26 @@ p {
 {
     display: inline-block;
 }
+
+.faq-container {
+    /* Styles for the container of FAQ items */
+}
+
+.faq-item {
+    /* Styles for each individual FAQ item */
+}
+
+.faq-question {
+    /* Styles for the question button */
+}
+
+.faq-answer {
+    /* Styles for the answer content */
+    display: none; /* Initially hide the answer */
+}
+
+.faq-answer.open {
+    display: block; /* Show the answers when the open class is applied */
+}
+
+
