@@ -68,7 +68,7 @@ p {
 
 .question7-error-message-in-code
 {
-    display: inline-block;
+    display: block;
 }
 
 .faq-container {
@@ -82,7 +82,7 @@ p {
 
 .faq-question {
     /* Styles for the question button */
-    
+
 }
 
 .faq-answer {

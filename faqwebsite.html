@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">  <!-- This links the css file to the html file -->
+    
     <title>
         Intro To Programming
     </title>
@@ -32,6 +33,10 @@
             <button class="faq-question" >Q2. How do I download Visual Studio Code? I have a Mac, is it compatible?</button>
             <div class="faq-answer">
                 <p>This link should take you to the downloads page for VS Code. Yes, it's compatible with a Mac. Use the Windows installer for Windows and the Mac installer for Mac.</p>
+                <button class= "vscode-button">
+                    <a class="navbar-brand" href="https://code.visualstudio.com/download"> <span>Download Visual Studio Code</span>
+                    </a>
+                </button>
             </div>
         </div>
         </div>
@@ -73,94 +78,44 @@
                 </div>
             </div>
         </div>
-    <script src="script.js"></script>
 
 
-    
-    <!-- <div>
-        <p class="questions">
-            Q2. How do I download Visual Studio Code? I have a Mac, is it compatible?
-            <p>
-                This link should take you to downloads page for VS Code. Yes, it's compatible with a Mac. Use the Windows installer for windows and the Mac installer for Mac.
-            </p>
-        </p>
-    </div>
-
-    <div>
-        <button class= "vscode-button">
-            <a class="navbar-brand" href="/"><span>Visual Studio Code</span>
-            </a>
-        </button>
-    </div> -->
-    
-    <!-- <div>
-        <p class="questions">
-            Q3. What is the naming convention for assignment submissions and how do I make submissions on Canvas?
-            <p>
-            <br> The naming convention for assignment submissions is: "username_PA#". For example, if I were to submit programming assignment 1, I would name it "hzs0084_PA1". 
-            <br> Failure to follow this naming convention will result in a <strong>0 </strong> the assignment. If a student submits an assignment with the wrong naming convention and the submission deadline has passed. 
-            <br> It's upto the instructor's discretion whether or not to accept the assignment. If the assignment is accepted, the student will receive a <strong>20% </strong> on the assignment.
-            <br> All the submissions should be in a zip file. You can submit that zip file on Canvas.
-            </p>
-        </p>
-    </div> -->
-
-    <!-- <div>
-        <p class="questions">
-            Q4. I don't know anything about coding, will I be able to do well in this class?
-            <p>
-            <br> Yes! As long as you show up to class and do the assignments, you will do well in this class. You have multiple resources at your disposal to help you succeed in this class.
-            <br> If you're struggling with an assignment, you can always ask for help on the class Teams page. You can also ask for help during office hours.
-            <br> If the usage of any AI tools is found in your code. You will receive a <strong> 0 </strong>for the assignment. Since AI is generating the code for you and it's not your own work, it will be considered as plagrism.
-            </p>
-        </p>
-    </div>
-
-    <div>
-        <p class="questions">
-            Q5. What is the attendance policy for this class?
-            <p>
-                Attendance is not being recorded for this class but there's going to be a lot of content covered and examples that will be covered in class so you're expected to show up.
-            </p>
-        </p>
-    </div> -->
-
-    <div>
-        <p class="questions">
-            Q6. What is the late submission policy for this class?
-            <p>
-                Each student will get two late days for the semester. You can use these late days for any assignment but you have to reach out to the TA to let them know you are going to use a late day
-            so that the TA doesn't take off any late points. Otherwise as stated in syllabus there will be a <strong>20%</strong> deduction as late penalty.
-            </p>
-        </p>
-    </div>
-
-    <div>
-        <p class="questions">
-            Q7. How do I read the error messages in Visual Studio Code?
-        </p>
-
-        <div>
-            <div>
-                <img src="./error codes/semi colon error.png" alt="semi-colon error in the terminal">
+        <div class="faq-item">
+            <button class="faq-question" >Q6. What is the late submission policy for this class?</button>
+            <div class="faq-answer">
+                <div>
+                    <p>
+                        Each student will get two late days for the semester. You can use these late days for any assignment but you have to reach out to the TA to let them know you are going to use a late day
+                    so that the TA doesn't take off any late points. Otherwise as stated in syllabus there will be a <strong>20%</strong> deduction as late penalty.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <p>
-            The error messages in Visual Studio Code are self-explanatory but if you don't know where to look at it can be pretty confusing. In the above example, the error message is telling us that there's a missing semi-colon in line 53. The error message also tells us the file name and the line number where the error is located. 
-            <br> Since VS Code is trying to be precise, it's pointing the exact location where the error occurred. "53" is the line number where the error is located.
-            "22" is the column number within that line where the error is expected.
-            <br> The error message also tells us the type of error. In this case, it's a syntax error. The error message also tells us the error code. In this case, it's CS1002.The error message also tells us the error type. In this case, it's a syntax error. The error message also tells us the error description. In this case, it's telling us that it's expecting a semi colon on the line.
-
-        </p>
-
-        <p>
-            <div class="question7-error-message-in-code">
-                <img src="./error codes/semi colon error in code.png" alt="semi colon error in code">
+        <div class="faq-item">
+            <button class="faq-question" >Q7. How do I read the error messages in Visual Studio Code?</button>
+            <div class="faq-answer">
+                <div>
+                    <div>
+                        <div>
+                            <img src="./error codes/semi colon error.png" alt="semi-colon error in the terminal">
+                        </div>
+                    </div>
+                    The error messages in Visual Studio Code are self-explanatory but if you don't know where to look at it can be pretty confusing. In the above example, the error message is telling us that there's a missing semi-colon in line 53. The error message also tells us the file name and the line number where the error is located. 
+                    <br> Since VS Code is trying to be precise, it's pointing the exact location where the error occurred. "53" is the line number where the error is located.
+                    "22" is the column number within that line where the error is expected.
+                    <br> The error message also tells us the type of error. In this case, it's a syntax error. The error message also tells us the error code. In this case, it's CS1002.The error message also tells us the error type. In this case, it's a syntax error. The error message also tells us the error description. In this case, it's telling us that it's expecting a semi colon on the line. 
+                    
+                    <div class="question7-error-message-in-code">
+                        <img src="./error codes/semi colon error in code.png" alt="semi colon error in code">
+                    </div>
+                    <p>
+                        There's also a red squiggly line under the line where the error is located. This is another way of telling us that there's an error in the code. If you hover over the red squiggly line, it will tell you the same thing as the error message.
+                    </p>
+                </div>
             </div>
-            There's also a red squiggly line under the line where the error is located. This is another way of telling us that there's an error in the code. If you hover over the red squiggly line, it will tell you the same thing as the error message.
-        </p>
-
+        </div>
+        <script src="script.js"></script>
     </div> 
 
 
