@@ -119,18 +119,46 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="faq-item">
-            <button class="faq-question" >Q6. What is the late submission policy for this class?</button>
+            <button class="faq-question" >Q8. What VS Code Extensions and additional software do I need for this class?</button>
             <div class="faq-answer">
                 <div>
-                    <p>
-                        Each student will get two late days for the semester. You can use these late days for any assignment but you have to reach out to the TA to let them know you are going to use a late day
-                    so that the TA doesn't take off any late points. Otherwise as stated in syllabus there will be a <strong>20%</strong> deduction as late penalty.
-                    </p>
+                    <ol>
+                        <li>
+                            For C# development, you'll need the .NET SDK. Install it from the official .NET website: <a href="https://dotnet.microsoft.com/download" target="_blank"> Download .Net SDK</a>
+                        </li>
+                        <li>
+                            Click on this link and then follow the steps to install the C# extension for VS Code: <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp" target="_blank"> C# Extension for VS Code</a>
+                        </li>
+                        <li>
+                            To verify that you have the C# extension installed, open VS Code and click on the Extensions icon on the left side of the screen. Then search for C# and you should see the C# extension.
+                            <br>Another way to ensure that you have everything set up correctly is to open the terminal in VS Code and type in "dotnet --version". If you see a version number, you're good to go. Below is an example of what you should see.
+                            <div class="dotnet-version-terminal-cmd">
+                                <img src="./error codes/dotnet-version.png" alt="dotnet-version">
+                                <!-- I need to fix the image resolutino and formatting by going back on the youtube video and see how he fomratted the image -->
+                            </div>
+                        </li>
+                        <li>
+                            Ideally, you can use these commands to make a project and run it. A simple project of Hello World should be enough to verify that everything is working correctly.
+                            <ul>
+                                <li>
+                                    dotnet new console -o HelloWorld
+                                </li>
+                                <li>
+                                    cd HelloWorld
+                                </li>
+                                <li>
+                                    dotnet run
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
                 </div>
             </div>
         </div>
+
+        
 
         <script src="script.js"></script>
     </div> 
