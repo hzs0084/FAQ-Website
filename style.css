@@ -226,14 +226,14 @@ p {
     min-height: 35vh;
 }
 
-.faq-container {
+/* .faq-container { */
     /* Styles for the container of FAQ items */
-}
+/* }  */
 
-.faq-item {
+/* .faq-item { */
     /* Styles for each individual FAQ item */
     
-}
+/* } */
 
 .faq-question {
     /* Styles for the question button */
@@ -300,7 +300,7 @@ p {
     font-family: inherit;
     line-height: inherit;
     text-transform: none;
-    -webkit-appearance: button;
+    /* -webkit-appearance: button; */
     position: relative;
     display: flex;
     align-items: center;
