@@ -349,4 +349,20 @@ p {
     height: auto;
 }
 
+  
+  .terminal-container {
+    background-color: #2e3436; /* Dark grey background */
+    border: 1px solid #586e75; /* Grey border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for spacing */
+    font-family: monospace; /* Fixed-width font */
+    color: #f8f8f8; /* Light grey text */
+    width: fit-content; /* Adjust width as needed */
+  }
+  
+  pre {
+    margin: 0; /* Remove margin for seamless integration within the container */
+  }
+  /* Additional styling for borders, margins, etc. */
 
+  
