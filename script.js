@@ -9,5 +9,9 @@ faqItems.forEach(item => {
     });
 });
 
+// Add the following code to the existing JavaScript code
+// Select the copy icon inside the copy button
+const copyIcon = document.querySelector('.copy-button i');
 
-  
+// Add a click event listener to the copy icon
+copyIcon.addEventListener('click', copyCode);

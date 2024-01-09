@@ -365,4 +365,12 @@ p {
   }
   /* Additional styling for borders, margins, etc. */
 
-  
+
+/* Add this CSS to make the copy icon appear */
+.copy-button {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
