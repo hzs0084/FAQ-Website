@@ -374,3 +374,13 @@ p {
     border: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 390px) {
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
