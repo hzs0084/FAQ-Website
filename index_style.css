@@ -25,5 +25,33 @@
 .clicked {
     background-color: #f0f0f0; /* Change background color on click */
     /* Add other styles for the clicked state as needed */
-  }
-  
+}
+
+/* ... your existing styles ... */
+
+body { 
+    /* Remove the previous flexbox properties from body */ 
+    margin: 0; /* Keep default body margins or adjust as needed */
+}
+
+h1 { /* Target your h1 for styling */
+    text-align: center; /* Center the text horizontally */
+    margin-bottom: 20px; /* Add some space below the heading */
+    /* Add any other styling you want for the heading (font size, color, etc.) */
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    grid-template-rows: auto auto; /* Two rows with automatic height */
+    grid-gap: 20px; 
+    justify-content: center; 
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+        grid-template-rows: auto auto auto; /* Three rows for smaller screens */
+    }
+}
