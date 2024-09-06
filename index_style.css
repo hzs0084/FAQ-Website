@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+    justify-content: space-around; /* Evenly space the boxes */
+}
+
+.box {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color from parent */
+    transition: transform 0.3s ease; /* Add a smooth hover effect */
+}
+
+.box:hover {
+    transform: scale(1.05); /* Make the box slightly larger on hover */
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+.clicked {
+    background-color: #f0f0f0; /* Change background color on click */
+    /* Add other styles for the clicked state as needed */
+  }
+  
