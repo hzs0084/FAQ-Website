@@ -1,51 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    background-color: #f5f5f5; /* Light background similar to Auburn's */
+    margin: 0; /* Reset default margins */
+}
+
 .container {
     display: flex;
-    flex-wrap: wrap; /* Allow boxes to wrap to the next line */
-    justify-content: space-around; /* Evenly space the boxes */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
 }
 
 .box {
-    width: 300px; /* Adjust width as needed */
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #ccc;
+    background-color: white;
     border-radius: 8px;
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit text color from parent */
-    transition: transform 0.3s ease; /* Add a smooth hover effect */
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust width as needed */
+    text-decoration: none; /* Remove default link underline */
+    color: #003366; /* Add this line - change to Auburn's exact blue if needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add background transition */
 }
 
 .box:hover {
-    transform: scale(1.05); /* Make the box slightly larger on hover */
+    transform: translateY(-5px); /* Move slightly up on hover */
+    background-color: #D04E00; /* Change background to Auburn orange on hover */
+    color: white; /* Optional: Change text color to white on hover for contrast */
 }
 
-.box h2 {
-    margin-bottom: 10px;
-}
-.clicked {
-    background-color: #f0f0f0; /* Change background color on click */
-    /* Add other styles for the clicked state as needed */
+h1 {
+    text-align: center;
+    color: #D04E00; /* Auburn orange */
+    padding: 20px;
 }
 
-/* ... your existing styles ... */
-
-body { 
-    /* Remove the previous flexbox properties from body */ 
-    margin: 0; /* Keep default body margins or adjust as needed */
+h2 {
+    color: #333; /* Dark gray for headings */
 }
 
-h1 { /* Target your h1 for styling */
-    text-align: center; /* Center the text horizontally */
-    margin-bottom: 20px; /* Add some space below the heading */
-    /* Add any other styling you want for the heading (font size, color, etc.) */
+p {
+    color: #555; /* Slightly lighter gray for text */
 }
 
-.container {
-    display: grid; 
-    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
-    grid-template-rows: auto auto; /* Two rows with automatic height */
-    grid-gap: 20px; 
-    justify-content: center; 
+/* Optional: Navigation Bar Style */
+nav {
+    background-color: #D04E00;
+    color: white;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.bottom-banner {
+    display: block; /* Ensure it takes up full width */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
 }
 
 /* Media Query for Smaller Screens */
@@ -55,3 +72,4 @@ h1 { /* Target your h1 for styling */
         grid-template-rows: auto auto auto; /* Three rows for smaller screens */
     }
 }
+
