@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background similar to Auburn's */
+}
+
+h1 {
+    color: #D04E00; /* Auburn orange */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.2s ease; /* Add a smooth hover effect */
+}
+
+li:hover {
+    transform: translateY(-5px); /* Move slightly up on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #003366; /* Dark blue, similar to Auburn's */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #D04E00; /* Change link color to Auburn orange on hover */
+}
+
+.resource-type {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D04E00; /* Auburn orange */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.back-link:hover {
+    background-color: #b53d00; /* Darker orange on hover */
+}
