@@ -7,16 +7,6 @@
     <link rel="stylesheet" href="first_project.css">  
 </head>
 <body>
-    <div>
-        <p>
-            <h1 class="class-title">
-                ISMN-3080
-            </h1>
-        </p>
-        <p class="class-details">
-            Introduction to Programming
-        </p>
-    </div>
 
     <h1>Creating Your First .NET Console Application</h1>
 
@@ -25,47 +15,46 @@
         Before you begin, ensure you have the .NET SDK installed. Open your terminal or command prompt and run:
     </p>
     <div class="code-container">
-        <pre><code class="bash">dotnet --version</code></pre>
-        <button class="copy-button" data-clipboard-target="#dotnet-version">Copy</button>
+        <code class="bash" id="dotnet-version">dotnet --version</code>
+        <button class="copy-button" data-clipboard-target="#dotnet-version">Copy</button> 
     </div>
     <p>
         If a version number is displayed, you're good to go! If not, download and install the .NET SDK from the official website: <a href="https://dotnet.microsoft.com/download" target="_blank">https://dotnet.microsoft.com/download</a>
     </p>
-
+    
     <h2>2. Create a New Directory</h2>
     <p>
         Create a new folder for your project. You can do this using the command line or your file explorer. For example, to create a folder named "HelloWorldProject":
     </p>
     <div class="code-container">
-        <pre><code class="bash" id="dotnet-version">mkdir HelloWorldProject</code></pre>
-        <button class="copy-button" data-clipboard-target="#mkdir-HelloWorldProject">Copy</button>
+        <code class="bash" id="mkdir-HelloWorldProject">mkdir HelloWorldProject</code>
+        <button class="copy-button" data-clipboard-target="#mkdir-HelloWorldProject">Copy</button> 
     </div>
-
+    
     <h2>3. Navigate to the Directory</h2>
     <p>
-        Use the <code>cd</code> command to navigate into your newly created directory:
+        Use the <em>cd</em> command to navigate into your newly created directory:
     </p>
     <div class="code-container">
-        <pre><code class="bash" id="mkdir-HelloWorldProject">cd HelloWorldProject</code></pre>
-        <button class="copy-button" data-clipboard-target="#cd-HelloWorldProject">Copy</button>
+    <code class="bash" id="cd-HelloWorldProject">cd HelloWorldProject</code> 
+    <button class="copy-button" data-clipboard-target="#cd-HelloWorldProject">Copy</button> 
     </div>
-
+    
     <h2>4. Create the Project</h2>
     <p>
-        Generate a new console application project using the <code>dotnet new</code> command:
+        Generate a new console application project using this command:
     </p>
     <div class="code-container">
-        <pre><code class="bash" id="cd-HelloWorldProject">dotnet new console</code></pre>
+        <code class="bash" id="dotnet-new-console">dotnet new console</code> 
         <button class="copy-button" data-clipboard-target="#dotnet-new-console">Copy</button>
     </div>
-
+    
     <h2>5. Run the Application</h2>
     <p>
         Finally, run your application:
     </p>
     <div class="code-container">
-        <pre><code class="bash" id="dotnet-new-console">dotnet run</code></pre>
-        <button class="copy-button" data-clipboard-target="#dotnet-run">Copy</button>
+        <code class="bash" id="dotnet-run">dotnet run</code> <button class="copy-button" data-clipboard-target="#dotnet-run">Copy</button>
     </div>
     <p>
         You should see "Hello World!" printed to your console.
