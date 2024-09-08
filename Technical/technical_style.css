@@ -1,0 +1,74 @@
+/* technical_style.css */
+
+/* Import Auburn University's Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Basic Page Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Use Auburn's font */
+    color: #333; 
+    line-height: 1.6;
+    margin: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-weight: 700; /* Use a bolder font weight */
+    color: #003366; /* Auburn blue for headings */
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Links */
+a {
+    color: #D0021B; /* Auburn orange for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 2rem;
+}
+
+/* Code Blocks */
+code {
+    background-color: #f4f4f4;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}
+
+/* Back Link (Style as an Auburn button) */
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #D04E00; /* Auburn orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.back-link:hover {
+    background-color: #D0021B; /* Change to Auburn orange on hover */
+    cursor: pointer;
+}

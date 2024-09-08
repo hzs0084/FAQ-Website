@@ -67,3 +67,11 @@ code {
 .back-link:hover {
     background-color: #b53d00; /* Darker orange on hover */
 }
+
+.video-container {
+    text-align: center;
+    margin-bottom: 30px;
+    border: 1px solid #ccc; /* Add a subtle border */
+    padding: 10px;
+    border-radius: 5px;
+  }
