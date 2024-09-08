@@ -1,12 +1,12 @@
 // In canvas_submission.js
-const video = document.getElementById('instructional-video');
-const userAgent = navigator.userAgent;
+const macVideoSection = document.querySelector('.mac-users');
+const windowsVideoSection = document.querySelector('.windows-users');
 
 if (userAgent.indexOf('Mac OS X') !== -1) { 
-  video.src = 'How to Compress files for Mac.mp4'; 
+  macVideoSection.style.display = 'block'; 
 } else if (userAgent.indexOf('Windows') !== -1) {
-  video.src = 'How to compress for Windows Users.mp4';
+  windowsVideoSection.style.display = 'block';
 } else {
-  // Default video or message if platform isn't detected
-  video.src = 'How to compress for Windows Users.mp4'; 
+  // Default: Show one of the sections 
+  windowsVideoSection.style.display = 'block'; 
 }
