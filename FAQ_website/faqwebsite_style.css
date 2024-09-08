@@ -350,4 +350,18 @@ body {
     }
     
 }
+.back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D04E00; /* Auburn orange */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+.back-link:hover {
+    background-color: #b53d00; /* Darker orange on hover */
+}
 
