@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
   // All your JavaScript code from above goes here
   const macVideoSection = document.querySelector('.mac-users');
