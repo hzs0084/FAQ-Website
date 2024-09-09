@@ -40,4 +40,9 @@ body {
   .back-link:hover {
     background-color: #b53d00;
   }
+
+.mac-users, 
+.windows-users {
+  display: none; 
+}
   
