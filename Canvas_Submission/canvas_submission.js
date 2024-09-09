@@ -1,12 +1,19 @@
-// // In canvas_submission.js
-// const macVideoSection = document.querySelector('.mac-users');
-// const windowsVideoSection = document.querySelector('.windows-users');
+const macVideoSection = document.querySelector('.mac-users');
+const windowsVideoSection = document.querySelector('.windows-users');
 
-// if (userAgent.indexOf('Mac OS X') !== -1) { 
-//   macVideoSection.style.display = 'block'; 
-// } else if (userAgent.indexOf('Windows') !== -1) {
-//   windowsVideoSection.style.display = 'block';
-// } else {
-//   // Default: Show one of the sections 
-//   windowsVideoSection.style.display = 'block'; 
-// }
+function isMacOS() {
+  return /Macintosh/i.test(navigator.userAgent); // Case-insensitive check
+}
+
+function isWindows() {
+  return /Windows/i.test(navigator.userAgent); // Case-insensitive check
+}
+
+if (isMacOS()) {
+  macVideoSection.style.display = 'block';
+} else if (isWindows()) {
+  windowsVideoSection.style.display = 'block';
+} else {
+  // Default: Show one of the sections (consider showing both)
+  windowsVideoSection.style.display = 'block'; // Or show both sections
+}
