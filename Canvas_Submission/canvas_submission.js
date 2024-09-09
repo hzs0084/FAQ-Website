@@ -1,12 +1,27 @@
-// In canvas_submission.js
-const video = document.getElementById('instructional-video');
-const userAgent = navigator.userAgent;
 
-if (userAgent.indexOf('Mac OS X') !== -1) { 
-  video.src = 'How to Compress files for Mac.mp4'; 
-} else if (userAgent.indexOf('Windows') !== -1) {
-  video.src = 'How to compress for Windows Users.mp4';
-} else {
-  // Default video or message if platform isn't detected
-  video.src = 'How to compress for Windows Users.mp4'; 
-}
+document.addEventListener('DOMContentLoaded', function() {
+  // All your JavaScript code from above goes here
+  const macVideoSection = document.querySelector('.mac-users');
+  const windowsVideoSection = document.querySelector('.windows-users');
+  
+  function isMacOS() {
+    return /Macintosh/i.test(navigator.userAgent); // Case-insensitive check
+  }
+  
+  function isWindows() {
+    return /Windows/i.test(navigator.userAgent); // Case-insensitive check
+  }
+  
+  if (isMacOS()) {
+    macVideoSection.style.display = 'block';
+    windowsVideoSection.style.display = 'none'; // Hide Windows video
+  } else if (isWindows()) {
+    windowsVideoSection.style.display = 'block';
+    macVideoSection.style.display = 'none';     // Hide Mac video
+  } else {
+    // Default: Decide whether to show one or both
+    windowsVideoSection.style.display = 'block'; 
+    macVideoSection.style.display = 'none';     // Or show both
+  }
+
+});
