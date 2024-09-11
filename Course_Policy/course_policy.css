@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body {
+    background-color: #ffffff; /* Example: White background */
+    color: #333333; /* Example: Dark gray text */
+}
+
+h2 {
+    color: #003366; /* Auburn blue */
+}
+
+a {
+    color: #D07000; /* Auburn orange */
+}
+
+a:hover {
+    color: #934A00; /* Darker orange on hover */
+}
+body {
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px; 
+}
+
+p {
+    margin-bottom: 15px;
+}
+.back-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D04E00; /* Auburn orange */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+
+.back-link:hover {
+    background-color: #b53d00; /* Darker orange on hover */
+}
